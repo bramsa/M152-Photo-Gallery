@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.bg-1 {
+	background-color: #404040; /* Gray */
+	color: #FFFFFF;
+}
+
+.bg-2 {
+	background-color: #474e5d; /* Dark Blue */
+	color: #ffffff;
+}
+
+.bg-3 {
+	background-color: #ffffff; /* White */
+	color: #555555;
+}
