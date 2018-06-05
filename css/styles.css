@@ -28,5 +28,11 @@
 }
 
 .darkBackground {
-	color: #0F1C25;
+	background-color: #0F1C25;
+}
+
+
+.noSpaceAfterHeader {
+	margin-bottom: -20px;
+	border: none;
 }
