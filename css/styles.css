@@ -2,7 +2,7 @@
 
 .bg-1 {
 	background-color: #383734; /* White */
-	color: #DFE2E6;
+ 	color: #DFE2E6 !important;
 }
 
 .bg-2 {
@@ -15,8 +15,12 @@
 /* 	color: #555555; */
 /* } */
 
+.font {
+	color: #DFE2E6 !important;
+}
+
 .highlighted-1 {
-	color: #93A9C1;
+	color: #93A9C1 !important;
 }
 
 .highlighted-2 {
