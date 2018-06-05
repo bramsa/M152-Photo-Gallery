@@ -1,16 +1,28 @@
 @charset "UTF-8";
 
 .bg-1 {
-	background-color: #404040; /* Gray */
-	color: #FFFFFF;
+	background-color: #383734; /* White */
+	color: #DFE2E6;
 }
 
 .bg-2 {
-	background-color: #474e5d; /* Dark Blue */
-	color: #ffffff;
+	background-color: #383734; /* Dark Blue */
+	color: #93A9C1;
 }
 
-.bg-3 {
-	background-color: #ffffff; /* White */
-	color: #555555;
+/* .bg-3 { */
+/* 	background-color: #ffffff; White */
+/* 	color: #555555; */
+/* } */
+
+.highlighted-1 {
+	color: #93A9C1;
+}
+
+.highlighted-2 {
+	color: #7B7B82;
+}
+
+.darkBackground {
+	color: #0F1C25;
 }
