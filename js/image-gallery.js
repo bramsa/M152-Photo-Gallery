@@ -10,7 +10,6 @@ imageGallery.controls.next = document.createElement("div");
 imageGallery.controls.previous = document.createElement("div");
 
 imageGallery.update = function() {
-  const imagesToDelete = imageGallery.viewport.getElementsByClassName("image");
   for (let i = 0; i < imageGallery.images.length; i++) {
     imageGallery.images[i].classList.remove("selected");
     imageGallery.imageSelectors[i].classList.remove("selected");
