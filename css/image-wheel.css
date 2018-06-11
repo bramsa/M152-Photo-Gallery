@@ -1,0 +1,48 @@
+.image-wheel .image-spoke {
+  width: 20%;
+  display: none;
+}
+
+.image-wheel .image-spoke .title {
+  text-align: center;
+}
+
+.image-wheel .image-spoke .image {
+	position: relative;
+  transition: all 0.5s;
+}
+
+.image-wheel .image-spoke .image .description {
+	position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+	margin: 0;
+	background-color: rgba(123, 123, 130, 0.5);
+}
+
+.image-wheel .image-spoke.center {
+  display: block;
+  margin: 0 25% 0 25%;
+  width: 50%;
+}
+
+.image-wheel .image-spoke.center .image {
+	width: 60%;
+  margin: 0 20% 0 20%;
+}
+
+.image-wheel .image-spoke.center .image:focus {
+  width: 100%;
+  margin: 0;
+}
+
+.image-wheel .image-spoke.left {
+  display: block;
+	float: left;
+}
+
+.image-wheel .image-spoke.right {
+  display: block;
+	float: right;
+}

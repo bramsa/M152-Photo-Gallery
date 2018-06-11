@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MAT</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="../css/styles.css"/>
+<link rel="stylesheet" href="../css/image-gallery.css"/>
+</head>
+<body class="bg-2">
+	<nav class="navbar navbar-default bg-2">
+		<div class="container">
+			<div class="navHome">
+				<button type="button" class="navbar-toggle" data-target="#myNavbar" data-toggle="collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand font" href="#">MAT</a>
+			</div>
+			<div class="collapse navbar-collapse" id="navCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a class="font" href="../view/gallery.html">Gallery</a></li>
+					<li><a class="font" href="../view/image-wheel.html">Image Wheel</a></li>
+					<li><a class="font" href="../view/video.html">Video</a></li>
+					<li><a class="font" href="../view/stream.html">Stream</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container-fluid bg-2 text-center">
+		<h1>MAT Bildergalerie</h1>
+		<h3>Dank media incoming</h3>
+	</div>
+
+  <div id="viewport"><!-- !!hier nichts einfügen!! --></div>
+  <div id="image-source">
+    <!-- weitere Bilder hier einfügen, falls weitere Bilddaten benötigt werden, diese auch in ein <span> tag packen, mit einer Klasse versehen und danach in der Datei 'image-gallery.css' den Namen des Attributes nachführen (ab Zeile 74, ist mit einem Kommentar versehen) -->
+    <div class="image">
+      <p class="description"><span class="file-name">File1.jpg</span><span class="iso">50</span></p>
+      <img src="../images/P1030292.jpg">
+    </div>
+    <div class="image">
+      <p class="description"><span class="file-name">File2.jpg</span><span class="iso">50</span></p>
+      <img src="../images/P1030292.jpg">
+    </div>
+    <div class="image">
+      <p class="description"><span class="file-name">File3.jpg</span><span class="iso">50</span></p>
+      <img src="../images/P1030292.jpg">
+    </div>
+    <div class="image">
+      <p class="description"><span class="file-name">File4.jpg</span><span class="iso">50</span></p>
+      <img src="../images/P1030292.jpg">
+    </div>
+    <div class="image">
+      <p class="description"><span class="file-name">File5.jpg</span><span class="iso">50</span></p>
+      <img src="../images/P1030292.jpg">
+    </div>
+    <div class="image">
+      <p class="description"><span class="file-name">File6.jpg</span><span class="iso">50</span></p>
+      <img src="../images/P1030292.jpg">
+    </div>
+    <div class="image">
+      <p class="description"><span class="file-name">File7.jpg</span><span class="iso">50</span></p>
+      <img src="../images/P1030292.jpg">
+    </div>
+    <div class="image">
+      <p class="description"><span class="file-name">File8.jpg</span><span class="iso">50</span></p>
+      <img src="../images/P1030292.jpg">
+    </div>
+    <div class="image">
+      <p class="description"><span class="file-name">File9.jpg</span><span class="iso">50</span></p>
+      <img src="../images/P1030292.jpg">
+    </div>
+  </div>
+
+  <script src="../js/image-gallery.js"></script>
+</body>
+</html>
