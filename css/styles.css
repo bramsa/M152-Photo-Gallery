@@ -2,7 +2,7 @@
 
 .bg-1 {
 	background-color: #383734; /* White */
- 	color: #DFE2E6 !important;
+	color: #DFE2E6 !important;
 }
 
 .bg-2 {
@@ -14,7 +14,6 @@
 /* 	background-color: #ffffff; White */
 /* 	color: #555555; */
 /* } */
-
 .font {
 	color: #DFE2E6 !important;
 }
@@ -31,7 +30,6 @@
 	background-color: #0F1C25;
 }
 
-
 .noSpaceAfterHeader {
 	margin-bottom: -20px;
 	border: none;
@@ -41,6 +39,14 @@ img {
 	width: 100%;
 }
 
+.bitMargin {
+	margin-top: 20px;
+}
+
 .navbar {
 	border-color: #0F1C25 !important /* dark blue*/
+}
+
+.heading {
+	padding: 40px 0;
 }
