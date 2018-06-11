@@ -6,7 +6,7 @@
 }
 
 .bg-2 {
-	background-color: #383734; /* Dark Blue */
+	background-color: #0F1C25; /* Dark Blue */
 	color: #93A9C1;
 }
 
@@ -35,4 +35,12 @@
 .noSpaceAfterHeader {
 	margin-bottom: -20px;
 	border: none;
+}
+
+img {
+	width: 100%
+}
+
+.navbar {
+	border-color: #0F1C25 !important /* dark blue*/
 }
