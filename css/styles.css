@@ -14,10 +14,6 @@
 /* 	background-color: #ffffff; White */
 /* 	color: #555555; */
 /* } */
-.font {
-	color: #DFE2E6 !important;
-}
-
 .highlighted-1 {
 	color: #93A9C1 !important;
 }
@@ -47,6 +43,38 @@ img {
 	border-color: #0F1C25 !important /* dark blue*/
 }
 
+.frameContainer {
+	margin: 0 500px;
+}
+
+.footer {
+	margin-top: 20px;
+}
+
 .heading {
 	padding: 40px 0;
+}
+
+.fontTitle {
+	font-family: "Montserrat", sans-serif;
+	font-size: 38px;
+	color: #93A9C1;
+}
+
+.fontHeading {
+	font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+	color: #93A9C1;
+}
+
+.font {
+	font-family: "Raleway", sans-serif;
+	color: #DFE2E6 !important;
+	font-size: 15px;
+}
+
+p {
+	font-family: "Raleway", sans-serif;
+	color: #DFE2E6 !important;
+	font-size: 15px;
 }

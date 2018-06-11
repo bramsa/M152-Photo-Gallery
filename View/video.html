@@ -2,42 +2,52 @@
 <html>
 
 <head>
-    <meta charset="ISO-8859-1">
-    <title>MAT</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../css/styles.css" />
+<meta charset="ISO-8859-1">
+<title>MAT</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="../css/styles.css" />
 </head>
 <html>
 
 <body class="bg-2">
-    <nav class="navbar navbar-default bg-2">
-        <div class="container">
-            <div class="navHome">
-                <button type="button" class="navbar-toggle" data-target="#myNavbar" data-toggle="collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
+	<nav class="navbar navbar-default bg-1 noSpaceAfterHeader">
+		<div class="container">
+			<div class="navHome">
+				<button type="button" class="navbar-toggle" data-target="#myNavbar"
+					data-toggle="collapse">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
 				</button>
-                <a class="navbar-brand font" href="#">MAT</a>
-            </div>
-            <div class="collapse navbar-collapse" id="navCollapse">
-                <ul class="nav navbar-nav navbar-right">
-					<li><a class="font" href="../index.html">Home</a></li>
-                    <li><a class="font" href="../view/gallery.html">Gallery</a></li>
-                    <li><a class="font" href="../view/stream.html">Stream</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="container-fluid bg-2 text-center">
-        <h1>MAT Bildergalerie</h1>
-        <h3>Dank media incoming</h3>
-    </div>
+				<a class="navbar-brand font" href="../index.html">MAT</a>
+			</div>
+			<div class="collapse navbar-collapse" id="navCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a class="font" href="gallery.html">Galerie</a></li>
+					<li><a class="font" href="video.html">Video</a></li>
+					<li><a class="font" href="stream.html">Stream</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
-    <center><video src="../video/video.mp4" height="400px" width="auto" autoplay="false"></video></center>
+	<div class="container-fluid darkBackground font text-center heading">
+		<h1 class="fontTitle">Video</h1>
+	</div>
 
+	<center>
+		<video src="../video/video.mp4" height="400px" width="auto"
+			autoplay="false"></video>
+	</center>
+	
+	<!-- Footer -->
+	<footer class="container-fluid bg-4 text-center darkBackground font footer">
+		<p>Webseite erstellt von Team MAT</p>
+	</footer>
 </body>
 
 </html>
