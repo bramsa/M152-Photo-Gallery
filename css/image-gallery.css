@@ -1,0 +1,138 @@
+#viewport {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  color: #0F1C25;
+}
+
+#viewport .control-next {
+  position: absolute;
+  height: 90vh;
+  width: 35%;
+  right: 0;
+  z-index: 500;
+}
+
+#viewport .control-next:hover {
+  background: -moz-linear-gradient(left, rgba(123,123,130,0) 0%, rgba(15,28,37,0.7) 100%);
+  background: -webkit-linear-gradient(left, rgba(123,123,130,0) 0%,rgba(15,28,37,0.7) 100%);
+  background: linear-gradient(to right, rgba(123,123,130,0) 0%,rgba(15,28,37,0.7) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007b7b82', endColorstr='#b30f1c25',GradientType=1 );
+}
+
+#viewport .control-previous {
+  position: absolute;
+  height: 90vh;
+  width: 35%;
+  left: 0;
+  z-index: 500;
+}
+
+#viewport .control-previous:hover {
+  background: -moz-linear-gradient(left, rgba(15,28,37,0.7) 0%, rgba(123,123,130,0) 100%);
+  background: -webkit-linear-gradient(left, rgba(15,28,37,0.7) 0%,rgba(123,123,130,0) 100%);
+  background: linear-gradient(to right, rgba(15,28,37,0.7) 0%,rgba(123,123,130,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b30f1c25', endColorstr='#007b7b82',GradientType=1 );
+}
+
+#viewport .image {
+  height: 100%;
+  width: 0%;
+  float: left;
+  position: relative;
+  text-align: center;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+
+#viewport .image.selected {
+  width: 100%;
+}
+
+#viewport .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+#viewport .image .description {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  background-color: rgba(123, 123, 130, 0.5);
+  font-size: 1.5em;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+#viewport .image .description span {
+  margin: 0 0.5em;
+}
+
+/* weitere Datentypen der Bilder hier einfügen */
+#viewport .image .description .file-name::before {
+  content: "Dateiname: ";
+}
+
+#viewport .image .description .iso::before {
+  content: "ISO Empfindlichkeit: ";
+}
+
+#viewport .image .description .exposure-time::before {
+  content: "Belichtungszeit: ";
+}
+
+#viewport .image .description .focal-lenght::before {
+  content: "Brennweite: ";
+}
+
+#viewport .image .description .f-number::before {
+  content: "Blendenzahl: ";
+}
+
+#image-source {
+  width: 100%;
+  height: 10vh;
+  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#image-source .image {
+  float: left;
+  height: 10vh;
+  width: auto;
+  margin: 0;
+  padding: 0 1em;
+  position: relative;
+}
+
+#image-source .image img {
+  width: auto;
+  height: 100%;
+  border-radius: 0.5em;
+}
+
+#image-source .image::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 1em;
+  right: 1em;
+  border-style: solid;
+  border-color: rgba(223, 226, 230, 0);
+  border-width: 0.5em;
+  border-radius: 0.5em;
+  transition: border 0.5s;
+}
+
+#image-source .image.selected::before {
+  border-color: rgba(223, 226, 230, 0.5);
+}
+
+#image-source .image .description {
+  display: none;
+}
